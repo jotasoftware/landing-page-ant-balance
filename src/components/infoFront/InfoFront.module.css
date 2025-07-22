@@ -1,0 +1,25 @@
+.titleContainer{
+    display: flex;
+    padding: 110px 0 0;
+    justify-content: center;
+    gap: 20px;
+    box-sizing: border-box;
+}
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+.textContainer h1{
+    font-family: "Poppins", sans-serif;
+    color: #1a45b8;
+    font-weight: 700;
+    font-size: 52px;
+}
+.textContainer p{
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}

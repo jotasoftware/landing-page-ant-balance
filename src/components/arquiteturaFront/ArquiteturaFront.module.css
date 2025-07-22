@@ -1,4 +1,4 @@
-.tecnologiasContainer{
+.arquiteturaContainer{
     min-height: 100vh;
     padding: 0 220px;
     display: flex;
@@ -8,7 +8,7 @@
     align-items: center;
 }
 
-.tecnologiasContainer h1{
+.arquiteturaContainer h1{
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 30px;

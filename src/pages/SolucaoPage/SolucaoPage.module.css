@@ -1,8 +1,10 @@
 .solucaoContainer{
     min-height: 100vh;
-    padding: 0 180px;
+    padding: 0 220px;
     display: flex;
     flex-direction: column;
-    gap: 70px;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
     background-color: rgb(230, 230, 230);;
 }

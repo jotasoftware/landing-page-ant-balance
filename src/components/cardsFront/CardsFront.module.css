@@ -1,0 +1,9 @@
+.cardsFrontContainer{
+    display: flex;
+    height: 300px;
+    width: 680px;
+    background-color: yellow;
+    justify-content: center;
+    gap: 20px;
+    box-sizing: border-box;
+}
