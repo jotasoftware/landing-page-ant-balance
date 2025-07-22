@@ -1,0 +1,7 @@
+.mainPageContainer{
+    min-height: 100vh;
+    padding: 0 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}

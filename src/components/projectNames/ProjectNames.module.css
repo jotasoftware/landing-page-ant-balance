@@ -1,0 +1,14 @@
+.nameContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    height: 100px;
+    box-shadow: 
+    0 80px 70px -20px rgba(0, 0, 0, 0.12),
+    0 0 10px rgba(0, 0, 0, 0.05); 
+    align-items: center;
+}
+.nameContainer{
+    font-weight: 500;
+}
+

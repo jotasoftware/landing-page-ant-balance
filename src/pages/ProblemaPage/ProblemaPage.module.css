@@ -1,0 +1,81 @@
+.problemaContainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding: 150px 180px 0;
+}
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+.textContainer h1{
+    font-family: "Poppins", sans-serif;
+    color: #1a45b8;
+    font-weight: 700;
+    font-size: 40px;
+}
+.textContainer p{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.problemasContainer{
+    display: flex;
+    margin-top: 60px;
+    flex-direction: column;
+    width: 100%;
+    text-align: start;
+}
+/* .problemasContainer{
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a45b8;
+    width: 200px;
+    padding: 10px 0;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+} */
+
+.problemasDiv{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    gap: 10px;
+    text-align: start;
+}
+
+.problemaItem{
+    display: flex;
+    align-items: start;
+    gap: 13px;
+}
+.problemaNumber{
+    margin-top: 6px;
+    background-color: #1a45b8;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+}
+
+.problemaText{
+    flex: 8;
+    font-size: 18px;
+}
+
+
+
+.imgContainer{
+    flex: 1;
+}

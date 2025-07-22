@@ -1,0 +1,15 @@
+.tecnologiasContainer{
+    min-height: 100vh;
+    padding: 0 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    background-color: rgb(230, 230, 230);
+    align-items: center;
+}
+
+.tecnologiasContainer h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
