@@ -1,6 +1,6 @@
 .titleContainer{
     display: flex;
-    padding: 190px 0 0;
+    padding: 230px 0 0;
     justify-content: space-between;
     gap: 20px;
     box-sizing: border-box;
@@ -17,11 +17,11 @@
     font-family: "Poppins", sans-serif;
     color: #1a45b8;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 48px;
 }
 .textContainer p{
     font-family: "Poppins", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
 }
 
