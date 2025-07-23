@@ -1,0 +1,43 @@
+.backendContainer{
+    padding: 0 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    background-color: rgb(230, 230, 230);;
+}
+.backendDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 100px;
+}
+
+.titleContainer{
+    display: flex;
+    padding: 110px 0 0;
+    justify-content: center;
+    gap: 20px;
+    box-sizing: border-box;
+}
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    text-align: start;
+}
+.textContainer h1{
+    font-family: "Poppins", sans-serif;
+    color: #1a45b8;
+    font-weight: 700;
+    font-size: 52px;
+}
+.textContainer p{
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}

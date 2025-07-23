@@ -4,9 +4,9 @@ import styles from './Menu.module.css';
 const Menu = ({ currentSection }) => {
   return (
     <div className={styles.menuContainer}>
-      <div className={styles.imgContainer}>
+      <a href='#' className={styles.imgContainer}>
         <img src="./logoazul.svg" alt="" />
-      </div>
+      </a>
       <div className={styles.menuLinks}>
         <a 
           href="#problema" 
@@ -24,17 +24,17 @@ const Menu = ({ currentSection }) => {
           href="#frontend" 
           className={`${styles.menuItemLink} ${currentSection === 'frontend' ? styles.active : ''}`}
         >
-          FrontEnd
+          Front-end
         </a>
         <a 
           href="#backend" 
           className={`${styles.menuItemLink} ${currentSection === 'backend' ? styles.active : ''}`}
         >
-          BackEnd
+          Back-end
         </a>
       </div>
       <div className={styles.linkPage}>
-        <a href="https://google.com">ÁREA DO USUÁRIO</a>
+        <a href="http://localhost:5173/login" target={'_blank'}>ÁREA DO USUÁRIO</a>
       </div>
     </div>
   )

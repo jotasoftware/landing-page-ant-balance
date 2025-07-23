@@ -16,6 +16,7 @@
   
 .imgContainer{
     width: 180px;
+    cursor: pointer;
 }
 .imgContainer > img{
     height: 60px;
@@ -58,4 +59,9 @@
     color: white;
     border-radius: 8px;
     font-weight: 700;
+    transition: background-color .3s ease-in-out;
+}
+
+.linkPage a:hover{
+    background-color: #191919;;
 }

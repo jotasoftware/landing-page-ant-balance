@@ -40,5 +40,10 @@
     border-radius: 8px;
     font-weight: 500;
     font-size: 22px;
+    transition: background-color .3s ease-in-out;
+}
+
+.saibaMaisContainer a:hover{
+    background-color: #191919;
 }
 

@@ -5,8 +5,8 @@ const InfoFront = () => {
   return (
     <div className={styles.titleContainer}>
         <div className={styles.textContainer}>
-            <h1>Frontend: Muito além da interface</h1>
-            <p>O frontend é onde a lógica vira experiência.</p>
+            <h1>Front-end: Muito além da interface</h1>
+            <p>O front-end é onde a lógica vira experiência.</p>
         </div>
     </div>
   )

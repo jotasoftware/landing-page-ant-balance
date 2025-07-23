@@ -6,6 +6,7 @@ import ProblemaPage from './pages/ProblemaPage/ProblemaPage'
 import SolucaoPage from './pages/SolucaoPage/SolucaoPage'
 import TecnologiasPage from './pages/TecnologiasPage/TecnologiasPage'
 import FrontendPage from './pages/FrontendPage/FrontendPage'
+import BackendPage from './pages/BackendPage/BackendPage'
 
 const App = () => {
   const [currentSection, setCurrentSection] = useState('main')
@@ -36,6 +37,7 @@ const App = () => {
       <div id="problema"><ProblemaPage /></div>
       <div id="solucao"><SolucaoPage /></div>
       <div id="frontend"><FrontendPage /></div>
+      <div id="backend"><BackendPage /></div>
       {/* <div id="backend"><TecnologiasPage /></div> */}
     </>
   )

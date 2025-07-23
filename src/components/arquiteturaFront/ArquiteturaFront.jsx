@@ -1,14 +1,25 @@
-import React, { useEffect, useState } from 'react';
+import React, { useRef } from 'react';
+import { motion, useInView } from 'framer-motion';
+import Diagrama from '../diagrama/Diagarama';
 import styles from './ArquiteturaFront.module.css';
 
 const ArquiteturaFront = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { amount: 0.3 });
 
   return (
-    <div className={styles.arquiteturaContainer}>
-        <h1>Arquitetura</h1>
+    <motion.div
+      ref={ref}
+      className={styles.arquiteturaContainer}
+      initial={{ opacity: 0, y: 50 }}
+      animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
+      transition={{ duration: 0.6, ease: 'easeOut' }}
+    >
+      <h1>Arquitetura</h1>
+      <Diagrama />
+      <img src="arquiteturafront.svg" alt="Diagrama de arquitetura" />
+    </motion.div>
+  );
+};
 
-    </div>
-  )
-}
-
-export default ArquiteturaFront
+export default ArquiteturaFront;
