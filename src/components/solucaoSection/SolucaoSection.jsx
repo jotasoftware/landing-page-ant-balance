@@ -8,7 +8,7 @@ const SolucaoSection = () => {
             <h1>Solução</h1>
             <p>Um app moderno e responsivo que permite ao usuário ter todo seu controle a um clique de distância, de qualquer dispositivo.</p>
             <div className={styles.saibaMaisContainer}>
-                <a href="google.com">Ant Balance</a>
+              <a href="http://localhost:5173/login" target={'_blank'}>Ant Balance</a>
             </div>
         </div>
         <div className={styles.imgContainer}>
